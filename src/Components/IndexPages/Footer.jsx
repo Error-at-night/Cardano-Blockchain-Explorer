@@ -4,9 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 // React Router Dom imports
 import { Link } from 'react-router-dom';
 
-// Context
-import { Context } from '../../Layout/Layout';
-
 // Sass
 import "../../Sass/Footer.scss"
 
