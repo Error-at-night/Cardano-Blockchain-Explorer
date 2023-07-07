@@ -1,0 +1,24 @@
+// variables
+@import "variables";
+
+.cardano-address-details {
+    background-color: $VeryDarkBlack;
+    border-radius: 8px;
+    border: 1px solid $Grey;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: $White;
+}
+
+.cardano-address-details h2 {
+    font-size: 25px;
+    color: $White;
+}
+
+.cardano-address-details h4 {
+    font-size: 18px;
+    color: $LightGrey;
+}
+
+.cardano-address-details p {
+    color: $White;
+}
