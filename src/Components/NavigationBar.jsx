@@ -2,20 +2,18 @@
 import { NavDropdown, Navbar, Nav, Container } from "react-bootstrap";
 
 // React Router Dom Imports
-import { Form, NavLink, useFetcher } from 'react-router-dom';
+import { Form, NavLink } from 'react-router-dom';
 
 // React Imports
 import { useState } from "react";
 
 // Heroicon Imports
-import { SunIcon, MoonIcon, UserIcon  } from "@heroicons/react/24/solid";
+import { MoonIcon, UserIcon  } from "@heroicons/react/24/solid";
 
 // Sass
 import "../Sass/Navigationbar.scss"
 
 const NavigationBar = () => {
-    // fetcher
-    const fetcher = useFetcher()
     // useState to set the initial state of the navbar on mobile screen
     const [isOpen, setIsOpen] = useState(false);
     // useState to set initial width(state) of the navbar on mobile screen
@@ -78,12 +76,12 @@ const NavigationBar = () => {
                     <div className="me-4 logout">
                         <NavDropdown title={<UserIcon width={20}/>} className="pe-md-5 nav-link" id="navbarScrollingDropdown">
                             <NavDropdown.Item className="nav-link-item">
-                                <fetcher.Form method="post" action="/create">
+                                <Form method="post" action="/create">
                                     <button type="submit" className="logout">Create Account</button>
-                                </fetcher.Form>
-                                <fetcher.Form method="post" action="/logout">
+                                </Form>
+                                <Form method="post" action="/logout">
                                     <button type="submit" className="logout">Logout</button>
-                                </fetcher.Form>
+                                </Form>
                             </NavDropdown.Item>
                         </NavDropdown>
                     </div>
