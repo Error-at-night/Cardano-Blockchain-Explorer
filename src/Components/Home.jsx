@@ -1,6 +1,3 @@
-// Toastify Message
-import { toast } from "react-toastify";
-
 // Components
 import CardonDisplay from "./IndexPages/CardanoDisplay";
 
