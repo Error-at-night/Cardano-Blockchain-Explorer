@@ -6,7 +6,6 @@ import CardanoBlockchainExplorer from "./CardanoBlockchainExplorer";
 import Footer from "./Footer";
 import CardanoAddressDetails from "./CardanoAddressDetails";
 import ScrollToTopButton from "../ScrollToTopButton";
-import { Context } from "../../Layout/Layout";
 
 const CardonDisplay = () => {
     return ( 
