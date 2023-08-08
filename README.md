@@ -1,5 +1,5 @@
 # Cardano-Blockchain-Explorer
-- This project I have made using reactjs and blockfrost Api is about a blockchain website which allows users to search for an address and display the details of the address. 
+- This project I have made using reactjs and blockfrost API is about a blockchain website which allows users to search for an address and display the details of the address. 
 
 # Live link
 - https://cardano-blockchain-explorer-1.netlify.app/
